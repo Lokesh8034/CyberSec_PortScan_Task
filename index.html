@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Network Scan Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { padding: 10px; border: 1px solid black; text-align: left; }
+    </style>
+</head>
+<body>
+    <h1>Network Scan Report</h1>
+    <h2>System Setup</h2>
+    <p><strong>Operating System:</strong> Kali Linux</p>
+    <p><strong>Tools Used:</strong> Nmap, Wireshark (Optional)</p>
+
+    <h2>Scan Results</h2>
+    <table>
+        <tr>
+            <th>Port</th>
+            <th>Status</th>
+            <th>Service</th>
+        </tr>
+        <tr>
+            <td>22</td>
+            <td>Open</td>
+            <td>SSH</td>
+        </tr>
+        <tr>
+            <td>80</td>
+            <td>Open</td>
+            <td>HTTP</td>
+        </tr>
+        <tr>
+            <td>443</td>
+            <td>Open</td>
+            <td>HTTPS</td>
+        </tr>
+    </table>
+
+    <h2>Security Insights</h2>
+    <p>Risks identified: Open ports could expose services.</p>
+    <p>Recommended mitigation: Configure firewalls and close unused ports.</p>
+
+    <h2>Submission</h2>
+    <p>Uploaded report to GitHub and submitted the repository link.</p>
+</body>
+</html>
